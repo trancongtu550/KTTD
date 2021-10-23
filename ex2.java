@@ -59,8 +59,8 @@ public class ex2 {
         login.click();
         List<WebElement> childElements1 = driver.findElements(By.xpath("//*[@style='font-family:Arial, Helvetica;font-size:13px;color:#000;padding:5px;']/input"));
         for(int i = 0; i<childElements1.size(); i++) {
-            childElements1.get(0).sendKeys("baomai");
-            childElements1.get(1).sendKeys("quocbao");
+            childElements1.get(0).sendKeys("tutran");
+            childElements1.get(1).sendKeys("congtu");
             break;
         }
         WebElement lg = driver.findElement(By.xpath("//*[@name='submit']"));
